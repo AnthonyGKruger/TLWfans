@@ -1730,13 +1730,13 @@ const Home = () => {
 	const tlwFansMapped = mapFans(tlwFans);
 
 	return (
-		<main>
+		<main className="bg-white/30">
 
 			<section>
 				<div className="container px-6 m-auto h-96">
 					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-52">
 						<div className="col-span-4 lg:col-span-6">
-							<Image src="/assets/logos/LogoTill-72dpi.jpg" width={100} height={100} alt="TLW" className="mx-auto"/>
+							<Image src="/assets/logos/LogoTill-72dpi.jpg" width={200} height={200} alt="TLW" className="mx-auto"/>
 						</div>
 						<div className="col-span-4 lg:col-span-6 sm:text-center my-auto text-3xl">The Lighting Warehouse Fans</div>
 					</div>
@@ -1774,7 +1774,7 @@ const Home = () => {
 				<div className="container px-6 m-auto h-96">
 					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-52">
 						<div className="col-span-4 lg:col-span-6">
-							<Image src="/assets/logos/Decor-Centre-Logo-1.jpg" width={100} height={100} alt="decor" className="mx-auto"/>
+							<Image src="/assets/logos/Decor-Centre-Logo-1.jpg" width={200} height={200} alt="decor" className="mx-auto"/>
 						</div>
 						<div className="col-span-4 lg:col-span-6 text-center my-auto text-3xl">Decor Fans</div>
 					</div>

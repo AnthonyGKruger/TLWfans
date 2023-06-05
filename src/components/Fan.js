@@ -4,7 +4,7 @@ const Fan = (props) => {
 	return (
 		<div className="col-span-4 lg:col-span-6">
 			{/*<!-- Component: Basic blog card --> */}
-			<div className="overflow-hidden rounded bg-white text-slate-500 shadow-md shadow-slate-200">
+			<div className="overflow-hidden rounded bg-white border-2 text-slate-500 shadow-md shadow-slate-200">
 				{/*  <!-- Image --> */}
 				<figure>
 					<Image
