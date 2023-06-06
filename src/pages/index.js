@@ -1730,7 +1730,7 @@ const Home = () => {
 	const tlwFansMapped = mapFans(tlwFans);
 
 	return (
-		<main className="bg-white/30">
+		<main className="bg-white/30 mb-32">
 			<section>
       <div className="container px-6 m-auto h-52 sm:h-64">
 					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-24">
