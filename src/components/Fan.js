@@ -25,7 +25,7 @@ const Fan = (props) => {
 					<div className="w-full overflow-x-auto">
 						<table
 							className="w-full text-left border border-collapse rounded sm:border-separate border-slate-200"
-							cellspacing="0"
+							cellSpacing="0"
 						>
 							<tbody>
 								{/* <tr>
