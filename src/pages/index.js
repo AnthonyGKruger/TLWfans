@@ -1731,14 +1731,18 @@ const Home = () => {
 
 	return (
 		<main className="bg-white/30">
-
 			<section>
-				<div className="container px-6 m-auto h-96">
-					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-52">
-						<div className="col-span-4 lg:col-span-6">
-							<Image src="/assets/logos/LogoTill-72dpi.jpg" width={200} height={200} alt="TLW" className="mx-auto"/>
+      <div className="container px-6 m-auto h-52 sm:h-64">
+					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-24">
+						<div className="col-span-4 md:col-span-8 lg:col-span-12">
+							<Image
+								src="/assets/logos/LogoTill-72dpi.jpg"
+								width={200}
+								height={200}
+								alt="TLW"
+								className="mx-auto"
+							/>
 						</div>
-						<div className="col-span-4 lg:col-span-6 sm:text-center my-auto text-3xl">The Lighting Warehouse Fans</div>
 					</div>
 				</div>
 			</section>
@@ -1752,12 +1756,17 @@ const Home = () => {
 			</section>
 
 			<section>
-				<div className="container px-6 m-auto h-96">
-					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-52">
-						<div className="col-span-4 lg:col-span-6">
-							<Image src="/assets/logos/solent_logo.png" width={300} height={300} alt="solent" className="mx-auto"/>
+				<div className="container px-6 m-auto h-52 sm:h-52">
+					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-24">
+						<div className="col-span-4 md:col-span-8 lg:col-span-12">
+							<Image
+								src="/assets/logos/solent_logo.png"
+								width={300}
+								height={300}
+								alt="solent"
+								className="mx-auto"
+							/>
 						</div>
-						<div className="col-span-4 lg:col-span-6 text-center my-auto text-3xl">Solent Fans</div>
 					</div>
 				</div>
 			</section>
@@ -1771,12 +1780,17 @@ const Home = () => {
 			</section>
 
 			<section>
-				<div className="container px-6 m-auto h-96">
-					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-52">
-						<div className="col-span-4 lg:col-span-6">
-							<Image src="/assets/logos/Decor-Centre-Logo-1.jpg" width={200} height={200} alt="decor" className="mx-auto"/>
+      <div className="container px-6 m-auto h-52 sm:h-52">
+					<div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12 mt-24">
+						<div className="col-span-4 md:col-span-8 lg:col-span-12">
+							<Image
+								src="/assets/logos/Decor-Centre-Logo-1.jpg"
+								width={200}
+								height={200}
+								alt="decor"
+								className="mx-auto"
+							/>
 						</div>
-						<div className="col-span-4 lg:col-span-6 text-center my-auto text-3xl">Decor Fans</div>
 					</div>
 				</div>
 			</section>
@@ -1788,7 +1802,6 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-
 		</main>
 	);
 };
